@@ -88,7 +88,7 @@ function modalEdit(id) {
                                         <strong >Password</strong>
                                         <input type="text" class="form-control"
                                         name="password"
-                                        value="${user.password}"
+                                        
                                         id="password"/>
                                    </div>
 

@@ -99,6 +99,9 @@ public class UserServiceImp implements UserService {
 
         if (user.getPassword().equals(userRepo.findUserById(user.getId()).getPassword())) {
             userRepo.save(user);
+        } else if (user.getPassword().equals("")) {
+            user.setPassword(userRepo.findUserById(user.getId()).getPassword());
+            userRepo.save(user);
         } else {
             saveUser(user);
         }

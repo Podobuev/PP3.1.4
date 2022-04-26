@@ -88,7 +88,6 @@ function modalDelete(id) {
                                         <strong >Password</strong>
                                         <input type="text" class="form-control"
                                         name="password"
-                                        value="${deleteUser.password}"
                                         id="deletePassword"/>
                                    </div>
 
