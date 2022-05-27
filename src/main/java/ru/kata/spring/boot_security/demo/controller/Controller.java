@@ -18,10 +18,10 @@ public class Controller {
         this.userService = userService;
     }
 
-    @GetMapping(value = "/")
-    public String login() {
-        return "login";
-    }
+//    @GetMapping(value = "/")
+//    public String login() {
+//        return "login";
+//    }
 
     @GetMapping(value = "/user")
     public String user() {
